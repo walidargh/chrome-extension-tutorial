@@ -11,8 +11,13 @@
 	},
 	"permission": [
 		"activeTab",
-		"http://ajax.googleapis.com/"
+		"https://ajax.googleapis.com/"
 	]
 
 
 }
+
+// manifest_version 1 is deprecated
+// browser action --> default icon == the icon users will see next to the omnibar
+// browser action --> default popup == the popup that will appear when icon is clicked
+// permission --> the resources you are requesting access to
